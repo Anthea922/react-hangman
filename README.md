@@ -1,3 +1,68 @@
+React Hangman Game
+Overview
+Welcome to the React Hangman Game! This is a simple and entertaining word-guessing game built using React. Challenge yourself by guessing the programming language before making too many wrong guesses.
+
+Rules of the Game
+The game will randomly select a programming language, and your goal is to guess it letter by letter.
+You have a maximum of 10 incorrect guesses before the game declares you've lost.
+If you guess all the letters correctly before reaching the maximum incorrect guesses, you win!
+How to Play
+Clone the Repository:
+
+Open your terminal and run the following command to clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/react-hangman.git
+Navigate to the Project Directory:
+
+bash
+Copy code
+cd react-hangman
+Install Dependencies:
+
+Run the following command to install the required dependencies:
+bash
+Copy code
+npm install
+Start the Game:
+
+Once the installation is complete, start the game by running:
+bash
+Copy code
+npm start
+This will launch the game in your default web browser.
+Play the Game:
+
+Follow the on-screen instructions to guess the letters and try to win the game.
+Use the displayed buttons to guess letters.
+Game Status:
+
+The game will inform you if you've won or lost.
+If you lose, the correct programming language will be revealed.
+Restart the Game:
+
+If you want to play again, simply click the "Reset" button.
+Folder Structure
+plaintext
+Copy code
+react-hangman/
+|-- public/
+|-- src/
+    |-- components/
+        |-- Hangman.js
+        |-- Words.js
+    |-- App.js
+    |-- index.js
+|-- images/
+|-- README.md
+|-- ...
+Additional Information
+The images folder contains the hangman drawing images used in the game.
+The Words.js file contains an array of programming languages used for word selection.
+The game UI is styled using Bootstrap.
+Enjoy playing the React Hangman Game!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
