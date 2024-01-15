@@ -50,7 +50,10 @@ react-hangman/
 |-- src/
     |-- components/
         |-- Hangman.js
+        |-- Hangman.css
         |-- Words.js
+        |-- HelpModal.js
+        |-- Hint.js
     |-- App.js
     |-- index.js
 |-- images/
