@@ -12,7 +12,7 @@ Clone the Repository:
 Open your terminal and run the following command to clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/react-hangman.git
+git clone https://github.com/Anthea922/react-hangman.git
 Navigate to the Project Directory:
 
 bash
